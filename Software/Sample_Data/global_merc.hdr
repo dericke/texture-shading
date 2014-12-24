@@ -1,0 +1,13 @@
+ncols         4320
+nrows         2788
+xllcorner     -20037508.342789
+yllcorner     -12931614.180485
+cellsize      9276.6242327728
+NODATA_value  32767
+byteorder     LSBFIRST
+layout        BSQ
+nbands        1
+nbits         16
+pixeltype     UNSIGNEDINT
+min_value     0
+max_value     30000

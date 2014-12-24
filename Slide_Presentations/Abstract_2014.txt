@@ -1,0 +1,13 @@
+TITLE:
+
+Texture Shading: A New Technique for Depicting Terrain Relief [2014/04/24]
+
+ABSTRACT:
+
+While conventional relief shading based on hillslope and illumination models has a long and successful history for visualization of mountainous topography, it also suffers certain limitations. Among these is anisotropy, or directional dependence, whereby the choice of lighting direction favors certain terrain features at the expense of others, according to their orientation. Another common drawback is a lack of visual hierarchy, since small terrain features affect slope and shading as much as large ones. Techniques such as adaptive illumination, relief generalization, resolution bumping, and atmospheric effect have been developed to mitigate these issues, while staying within the basic hillshading paradigm.
+
+If we relax this constraint and consider a broader range of possibilities, and at the same time focus on isotropy and scale invariance as key design goals, new options for terrain presentation emerge. Texture shading provides one such solution, and is particularly useful for bringing out the drainage structure of terrain that's dominated by a strong ridge and canyon network. Texture shading produces a different view of the terrain than conventional hillshading; it can be used on its own to provide a novel shading technique, or it can be used to enhance traditional shaded relief by blending the two. Experience shows that many terrains benefit from a combination of a directional component, such as hillshading, and an isotropic component, such as texture shading.
+
+Texture shading is produced by a mathematical process applied to a digital elevation model. The crux of the algorithm is a "fractional Laplacian" operator, which has been adapted to work on discrete data points instead of a continuous surface.
+
+This presentation will describe the texture shading technique and provide several examples of rendered terrain.

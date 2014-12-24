@@ -1,0 +1,7 @@
+TITLE:
+
+A New Technique for Depicting Terrain Relief [2010/10/15]
+
+ABSTRACT:
+
+Relief shading based on hillslope is commonly used for visualization of topography from digital elevation models, especially in mountainous regions. But hill shading suffers two drawbacks: anisotropy, and an emphasis on local detail that makes overall elevation trends and major landforms harder to recognize. Techniques such as adaptive illumination, relief generalization, and resolution bumping exist to address these issues, and small-scale maps often add hypsometric tints to show elevation differences. A new algorithm for shading of terrain texture will be described, which simultaneously eliminates anisotropy and improves the clarity of features across a wide dynamic range, highlighting the drainage structure of the terrain. This is achieved using only grayscale shading, leaving the other color dimensions available for overlaying additional information such as vegetation or geologic features. The method also has a scale independence advantageous for multiresolution applications. The underlying mathematics relies on combining a fractional Laplacian operator with an interpolation kernel, both applied as Fourier multipliers. Sample results will be presented that illustrate benefits of the new texture shading.

@@ -1,0 +1,15 @@
+TEMPORARY WORKAROUND FOR BUG IN WINDOWS VERSION
+===============================================
+
+For the Windows version of the "texture" program, you will need to include the
+file extensions explicitly on the command line. For example, this will NOT work:
+
+    texture 0.5 input output
+
+However, this WILL work:
+
+    texture 0.5 input.flt output.bsq
+
+This problem will be fixed in a future update.
+
+-- Leland Brown, 2012/04/05

@@ -1,0 +1,12 @@
+Mac Users:
+
+A user-friendly interface to the texture shading algorithm is now available.
+Natural Graphics has produced a program called Terrain Texture Shader,
+available at:
+
+	http://www.naturalgfx.com/tts.htm
+
+This program implements the exact same algorithm as the command-line version
+available on box.com (as of version 1.3.1), but provides a graphical user
+interface, quick preview window, numerous data and image file types, and
+several other features - making texture shading much easier to use.

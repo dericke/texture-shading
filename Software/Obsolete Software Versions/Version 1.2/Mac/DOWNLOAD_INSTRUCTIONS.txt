@@ -1,0 +1,18 @@
+Instructions to setup "texture" program on Mac:
+
+1. Download the "texture" file.
+
+2. Open a "Terminal" window (command-prompt). Terminal is found in the
+"Utilities" folder under Applications.
+
+3. Change directory to the location of the downloaded "texture" file.
+For instance, type:
+
+    cd Downloads
+
+4. Set the permissions on the file to allow it to be executed:
+
+    chmod +x texture
+
+5. The program is now ready to use. Move it to the folder where you want to
+run it, and then read the User Guide for further instructions.
